@@ -437,7 +437,7 @@ MYL,8250,False
 JNPR,8111,False
 BWA,7952,False
 WYNN,7918,False
-IRM7841,False
+IRM,7841,False
 WRK,7832,False
 TXT,7813,False
 MGM,7787,False
@@ -453,7 +453,7 @@ HII,7166,False
 PNR,7031,False
 AOS,6931,False
 FOX,6915,False
-HWM6781,False
+HWM,6781,False
 REG,6778,False
 VNO,6690,False
 CF,6537,False
