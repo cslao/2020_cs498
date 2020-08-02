@@ -13,7 +13,7 @@ MA,304784,False,Mastercard Incorporated
 JPM,299461,False,JPMorgan Chase & Co.
 HD,285347,False,The Home Depot Inc.
 UNH,285347,False,UnitedHealth Group Incorporated
-BRK/B,270520,False,Berkshire Hathaway Inc.
+BRK_B,270520,False,Berkshire Hathaway Inc.
 TSLA,262869,True,Tesla Inc.
 NVDA,250784,False,NVIDIA Corporation
 VZ,235245,False,Verizon Communications Inc.
@@ -269,7 +269,7 @@ AME,21314,False,AMETEK Inc.
 EIX,21172,False,Edison International
 CHD,21114,False,Church & Dwight Co. Inc.
 ABC,21105,False,AmerisourceBergen Corporation
-BF/B,21033,False,Brown-Forman Corp
+BF_B,21033,False,Brown-Forman Corp
 CPRT,21017,False,Copart Inc.
 AVB,20666,False,AvalonBay Communities Inc.
 MTD,20625,False,Mettler-Toledo International Inc.
