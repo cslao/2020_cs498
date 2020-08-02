@@ -1,506 +1,506 @@
-symbol,mcap_mm,is_auto
-AAPL,1605697,False
-MSFT,1524042,False
-AMZN,1500772,False
-FB,555273,False
-GOOG,508233,False
-GOOGL,452538,False
-JNJ,389973,False
-WMT,371665,False
-V,329239,False
-PG,311831,False
-MA,304784,False
-JPM,299461,False
-HD,285347,False
-UNH,285347,False
-BRK.B,270520,False
-TSLA,262869,True
-NVDA,250784,False
-VZ,235245,False
-INTC,215159,False
-DIS,212435,False
-NFLX,211885,False
-BAC,211251,False
-T,210686,False
-PFE,209195,False
-KO,208285,False
-ADBE,206404,False
-PYPL,202613,False
-CMCSA,197446,False
-CSCO,195914,False
-MRK,194608,False
-PEP,188393,False
-XOM,183631,False
-ABT,175027,False
-ABBV,171142,False
-ORCL,170772,False
-CRM,169829,False
-CVX,168270,False
-TMO,160500,False
-LLY,152592,False
-MCD,147759,False
-AMGN,145872,False
-COST,143839,False
-ACN,140879,False
-DHR,138526,False
-NEE,137223,False
-BMY,130896,False
-TMUS,129987,False
-MDT,129234,False
-LIN,128181,False
-AVGO,122984,False
-MKE,122532,False
-PM,119665,False
-UNP,119557,False
-TXN,118733,False
-CHTR,115971,False
-AMT,113632,False
-IBM,111687,False
-LOW,111008,False
-WFC,108180,False
-LMT,107961,False
-C,107571,False
-HOM,104867,False
-QCOM,99994,False
-BA,98057,False
-RTX,94114,False
-GILD,92372,False
-MMM,91939,False
-FIS,88782,False
-SBUX,88533,False
-BLK,86982,False
-SPGI,84307,False
-UPS,83332,False
-CVS,82791,False
-AMD,81280,False
-NOW,81085,False
-MS,79083,False
-ISRG,79031,False
-BDX,78788,False
-MDLZ,78324,False
-MO,77772,False
-AXP,76755,False
-INTU,75279,False
-SYK,74636,False
-CAT,74463,False
-PLD,73791,False
-VRTX,72296,False
-BKNG,69635,False
-CCI,69472,False
-GS,69282,False
-ZTS,68495,False
-ANTM,68194,False
-D,67484,False
-FISV,67370,False
-CI,66792,False
-EQIX,65270,False
-APD,64395,False
-CL,63657,False
-TJX,63355,False
-ADP,62502,False
-TGT,61856,False
-ATVI,61631,False
-REGN,61219,False
-CB,60892,False
-DUK,60850,False
-ECL,60755,False
-CME,60511,False
-GE,60005,False
-MMC,58481,False
-ITW,58381,False
-SO,57976,False
-SHW,56297,False
-ILMN,56190,False
-USB,55612,False
-MU,55572,False
-AMAT,55556,False
-BSX,55147,False
-DE,54859,False
-CSX,54578,False
-MCO,54315,False
-NEM,53572,False
-ICE,52708,False
-NOC,52126,False
-HUM,51843,False
-GPN,51634,False
-PGR,51433,False
-ADSK,51046,False
-TFC,50858,False
-KMB,50249,False
-LRCX,50185,False
-EW,48414,False
-DG,48255,False
-AON,47966,False
-NSC,47908,False
-WM,45446,False
-PNC,45327,False
-BAX,45273,False
-SCHW,44982,False
-AEP,43636,False
-ROP,43352,False
-FDX,43232,False
-COP,43197,False
-BIIB,43113,False
-EL,43098,False
-GD,43072,False
-HCA,42374,False
-KHC,42373,False
-ADI,41400,False
-DD,40028,False
-DLR,39439,False
-MNST,39429,False
-GIS,39171,False
-CNC,39096,False
-EA,39045,False
-DXCM,38946,False
-EMR,37856,False
-EBAY,37754,False
-GM,37565,True
-ETN,37444,False
-LHX,36965,False
-EXC,36814,False
-SRE,36749,False
-XEL,35648,False
-WBA,35103,False
-MET,34688,False
-LVS,33882,False
-CTSH,33407,False
-SBAC,33340,False
-ORLY,32833,False
-PSA,32399,False
-MSCI,32238,False
-KMI,32226,False
-BK,32094,False
-CMG,31606,False
-DOW,31579,False
-INFO,31579,False
-CTAS,31293,False
-APH,31147,False
-ROST,30666,False
-ES,30650,False
-IDXX,30510,False
-TROW,30484,False
-STZ,30218,False
-IQV,30197,False
-TRV,29947,False
-COF,29686,False
-PCAR,29648,True
-ALL,29639,False
-WEC,29521,False
-TWTR,29454,False
-RMD,29286,False
-A,29275,False
-KLAC,29181,False
-VRSK,29170,False
-SNPS,29158,False
-TEL,28785,False
-CONS,28601,False
-CLX,28592,False
-EOG,28543,False
-PSX,28410,False
-MAR,28372,False
-YUM,28033,False
-SYY,27888,False
-CMI,27770,True
-ZBH,27734,False
-JCI,27374,False
-AZO,27297,False
-WLTW,27235,False
-HRL,27093,False
-RSG,27066,False
-SLB,27038,False
-KR,27001,False
-AIG,26967,False
-F,26874,True
-PEG,26429,False
-AFL,26382,False
-ROK,26198,False
-AWK,26161,False
-FAST,26094,False
-PPG,27089,False
-PAYX,25899,False
-PRU,25639,False
-MCHP,25298,False
-ED,25251,False
-MCK,25183,False
-OTIS,25174,False
-MPC,25165,False
-ANSS,25122,False
-BBY,25053,False
-HPQ,25024,False
-XLNX,24966,False
-TT,24820,False
-MSI,24103,False
-MKC,23985,False
-VRSN,23950,False
-FTV,23916,False
-BLL,23850,False
-VLO,23638,False
-SWK,23567,False
-K,23534,False
-ALGN,23482,False
-PH,23445,False
-ADM,23380,False
-VFC,23334,False
-WMB,23305,False
-DHI,23175,False
-CARR,23022,False
-TDB,23010,False
-LYB,22858,False
-DLTR,22679,False
-ARE,22419,False
-ALXN,22411,False
-GLW,22288,False
-APTV,22207,False
-DTE,22009,False
-SWKS,21983,False
-STT,21944,False
-CERN,21849,False
-FLT,21627,False
-INCY,21611,False
-FTNT,21505,False
-ODFL,21494,False
-HSY,21474,False
-HLT,21468,False
-WELL,21466,False
-NDAQ,21421,False
-CTVA,21369,False
-AME,21314,False
-EIX,21172,False
-CHD,21114,False
-ABC,21105,False
-BF.B,21033,False
-CPRT,21017,False
-AVB,20666,False
-MTD,20625,False
-ETR,20548,False
-EQR,20221,False
-PPL,19752,False
-O,19718,False
-AJG,19705,False
-FRC,19667,False
-AEE,19620,False
-WY,19483,False
-WST,19395,False
-LH,19317,False
-MKTX,19206,False
-LEN,19165,False
-FCX,19049,False
-AMP,18994,False
-LUV,18659,False
-SPG,18519,False
-GRMN,18479,False
-GWW,18288,False
-CMS,18183,False
-AKAM,18132,False
-KEYS,18114,False
-TEX,17997,False
-ANET,17927,False
-MXIM,17902,False
-TSN,17899,False
-TTWO,17839,False
-CAG,17838,False
-CTXS,17590,False
-TSCO,16943,False
-VMC,16856,False
-PAYC,16806,False
-AMCR,16799,False
-DGX,16786,False
-DAL,16558,False
-CAH,16497,False
-PXD,16433,False
-CDW,16303,False
-FE,15970,False
-ROL,15955,False
-HOLX,15944,False
-KMX,15893,False
-NTRS,15818,False
-DFS,15550,False
-HES,15498,False
-OXY,15370,False
-DPZ,15223,False
-DOV,15190,False
-COO,15124,False
-BR,15073,False
-CPB,14926,False
-HIG,14852,False
-TIF,14732,False
-KSU,14595,False
-EVRG,14519,False
-CBRE,14465,False
-ZBRA,14333,False
-IP,14275,False
-MAX,14269,False
-TYL,14202,False
-PEAK,14124,False
-BXP,14087,False
-NVR,14056,False
-ESS,14007,False
-VIAC,13936,False
-FITB,13916,False
-MLM,13898,False
-FMC,13894,False
-WAT,13808,False
-JBHT,13793,False
-JKHY,13759,False
-SYF,13753,False
-DRE,13725,False
-IFF,13550,False
-IR,13546,False
-MTB,13487,False
-CINF,13383,False
-XYL,13358,False
-EXPD,13345,False
-VTR,13344,False
-STE,13282,False
-LNT,13253,False
-ABMD,13195,False
-LDOS,12935,False
-HAL,12922,False
-NUE,12903,False
-WDC,12842,False
-QRVO,12806,False
-GPC,12787,False
-OKE,12751,False
-MAA,12723,False
-BIO,12670,False
-IEX,12660,False
-ATO,12598,False
-HPE,12359,False
-SJM,12339,False
-STX,12328,False
-EXR,12314,False
-PKI,12293,False
-PFG,12261,False
-OMC,12119,False
-NLOK,12046,False
-KEV,11955,False
-SIVB,11922,False
-WAB,11773,False
-URI,11591,False
-CHRW,11585,False
-VAR,11548,False
-ULTA,11471,False
-ETFC,11445,False
-PHM,11429,False
-TDY,11388,False
-WRB,11380,False
-EXPE,11340,False
-IT,11119,False
-CTL,11073,False
-CE,10927,False
-J,10920,False
-CFG,10918,False
-RCL,10907,False
-BKR,10744,False
-DVA,10636,False
-HAS,10630,False
-CXO,10515,False
-RF,10479,False
-UDR,10465,False
-EMN,10414,False
-L,10376,False
-LYV,10315,False
-AES,10239,False
-DRI,10214,False
-BEN,10203,False
-AAP,10176,False
-AVY,10034,False
-CNP,9922,False
-LW,9899,False
-RJF,9882,False
-WHR,9839,False
-CBOE,9815,False
-FBHS,9794,False
-HBAN,9766,False
-PKG,9748,False
-NTAP,9582,False
-HSIC,9568,False
-UAL,9549,False
-DISH,9531,False
-XRAY,9473,False
-NI,9393,False
-ALLE,9317,False
-IPGP,9295,False
-FFIV,9277,False
-ALB,9254,False
-WU,9233,False
-PNW,9154,False
-FOXA,9134,False
-RE,8957,False
-CCL,8863,False
-GL,8554,False
-LKQ,8498,False
-UHS,8394,False
-NRG,8345,False
-MYL,8250,False
-JNPR,8111,False
-BWA,7952,False
-WYNN,7918,False
-IRM,7841,False
-WRK,7832,False
-TXT,7813,False
-MGM,7787,False
-SNA,7704,False
-PRGO,7606,False
-COG,7588,False
-HST,7402,False
-NWL,7269,False
-IPG,7227,False
-LNC,7189,False
-TAP,7169,False
-HII,7166,False
-PNR,7031,False
-AOS,6931,False
-FOX,6915,False
-HWM,6781,False
-REG,6778,False
-VNO,6690,False
-CF,6537,False
-DISKC,6439,False
-FANG,6427,False
-AIZ,6370,False
-MHK,6092,False
-RHI,6042,False
-SEE,5798,False
-AAL,5792,False
-PWR,5599,False
-FRT,5520,False
-ZION,5514,False
-FLIR,5360,False
-APA,5359,False
-LB,5331,False
-NLSN,5322,False
-AIV,5307,False
-NBL,5223,False
-CMA,5201,False
-MOS,5181,False
-PBCT,5095,False
-NOV,4945,False
-NWSA,4942,False
-HBI,4862,False
-IVZ,4790,False
-LEG,4752,False
-GPS,4713,False
-KIM,4649,False
-MRO,4520,False
-HFC,4367,False
-DXC,4357,False
-ALK,4297,False
-DVN,4094,False
-NCLH,3961,False
-FLS,3945,False
-TPR,3719,False
-UNM,3688,False
-FTI,3559,False
-PVH,3557,False
-SLG,3470,False
-RL,3413,False
-DISCA,3384,False
-XRX,3330,False
-KSS,3290,False
-COTY,3060,False
-HRB,2819,False
-NWA,2537,False
-UA,2272,False
-UAA,2056,False
+symbol,mcap_mm,is_auto,desc
+AAPL,1605697,False,Apple Inc.
+MSFT,1524042,False,Microsoft Corporation
+AMZN,1500772,False,Amazon.com Inc.
+FB,555273,False,Facebook Inc.
+GOOG,508233,False,Alphabet Inc.
+GOOGL,452538,False,Alphabet Inc.
+JNJ,389973,False,Johnson & Johnson
+WMT,371665,False,Walmart Inc.
+V,329239,False,Visa Inc.
+PG,311831,False,The Procter & Gamble Company
+MA,304784,False,Mastercard Incorporated
+JPM,299461,False,JPMorgan Chase & Co.
+HD,285347,False,The Home Depot Inc.
+UNH,285347,False,UnitedHealth Group Incorporated
+BRK/B,270520,False,NAN
+TSLA,262869,True,Tesla Inc.
+NVDA,250784,False,NVIDIA Corporation
+VZ,235245,False,Verizon Communications Inc.
+INTC,215159,False,Intel Corporation
+DIS,212435,False,The Walt Disney Company
+NFLX,211885,False,Netflix Inc.
+BAC,211251,False,Bank of America Corporation
+T,210686,False,AT&T Inc.
+PFE,209195,False,Pfizer Inc.
+KO,208285,False,The Coca-Cola Company
+ADBE,206404,False,Adobe Inc.
+PYPL,202613,False,PayPal Holdings Inc.
+CMCSA,197446,False,Comcast Corporation
+CSCO,195914,False,Cisco Systems Inc.
+MRK,194608,False,Merck & Co. Inc.
+PEP,188393,False,PepsiCo Inc.
+XOM,183631,False,Exxon Mobil Corporation
+ABT,175027,False,Abbott Laboratories
+ABBV,171142,False,AbbVie Inc.
+ORCL,170772,False,Oracle Corporation
+CRM,169829,False,salesforce.com inc.
+CVX,168270,False,Chevron Corporation
+TMO,160500,False,Thermo Fisher Scientific Inc.
+LLY,152592,False,Eli Lilly and Company
+MCD,147759,False,McDonald's Corporation
+AMGN,145872,False,Amgen Inc.
+COST,143839,False,Costco Wholesale Corporation
+ACN,140879,False,Accenture plc
+DHR,138526,False,Danaher Corporation
+NEE,137223,False,NextEra Energy Inc.
+BMY,130896,False,Bristol-Myers Squibb Company
+TMUS,129987,False,T-Mobile US Inc.
+MDT,129234,False,Medtronic plc
+LIN,128181,False,Linde plc
+AVGO,122984,False,Broadcom Inc.
+MKE,122532,False,NAN
+PM,119665,False,Philip Morris International Inc.
+UNP,119557,False,Union Pacific Corporation
+TXN,118733,False,Texas Instruments Incorporated
+CHTR,115971,False,Charter Communications Inc.
+AMT,113632,False,American Tower Corporation (REIT)
+IBM,111687,False,International Business Machines Corporation
+LOW,111008,False,Lowe's Companies Inc.
+WFC,108180,False,Wells Fargo & Company
+LMT,107961,False,Lockheed Martin Corporation
+C,107571,False,Citigroup Inc.
+HOM,104867,False,NAN
+QCOM,99994,False,QUALCOMM Incorporated
+BA,98057,False,The Boeing Company
+RTX,94114,False,Raytheon Technologies Corporation
+GILD,92372,False,Gilead Sciences Inc.
+MMM,91939,False,3M Company
+FIS,88782,False,Fidelity National Information Services Inc.
+SBUX,88533,False,Starbucks Corporation
+BLK,86982,False,BlackRock Inc.
+SPGI,84307,False,S&P Global Inc.
+UPS,83332,False,United Parcel Service Inc.
+CVS,82791,False,CVS Health Corporation
+AMD,81280,False,Advanced Micro Devices Inc.
+NOW,81085,False,ServiceNow Inc.
+MS,79083,False,Morgan Stanley
+ISRG,79031,False,Intuitive Surgical Inc.
+BDX,78788,False,Becton Dickinson and Company
+MDLZ,78324,False,Mondelez International Inc.
+MO,77772,False,Altria Group Inc.
+AXP,76755,False,American Express Company
+INTU,75279,False,Intuit Inc.
+SYK,74636,False,Stryker Corporation
+CAT,74463,False,Caterpillar Inc.
+PLD,73791,False,Prologis Inc.
+VRTX,72296,False,Vertex Pharmaceuticals Incorporated
+BKNG,69635,False,Booking Holdings Inc.
+CCI,69472,False,Crown Castle International Corp. (REIT)
+GS,69282,False,The Goldman Sachs Group Inc.
+ZTS,68495,False,Zoetis Inc.
+ANTM,68194,False,Anthem Inc.
+D,67484,False,Dominion Energy Inc.
+FISV,67370,False,Fiserv Inc.
+CI,66792,False,Cigna Corporation
+EQIX,65270,False,Equinix Inc. (REIT)
+APD,64395,False,Air Products and Chemicals Inc.
+CL,63657,False,Colgate-Palmolive Company
+TJX,63355,False,The TJX Companies Inc.
+ADP,62502,False,Automatic Data Processing Inc.
+TGT,61856,False,Target Corporation
+ATVI,61631,False,Activision Blizzard Inc.
+REGN,61219,False,Regeneron Pharmaceuticals Inc.
+CB,60892,False,Chubb Limited
+DUK,60850,False,Duke Energy Corporation
+ECL,60755,False,Ecolab Inc.
+CME,60511,False,CME Group Inc.
+GE,60005,False,General Electric Company
+MMC,58481,False,Marsh & McLennan Companies Inc.
+ITW,58381,False,Illinois Tool Works Inc.
+SO,57976,False,The Southern Company
+SHW,56297,False,The Sherwin-Williams Company
+ILMN,56190,False,Illumina Inc.
+USB,55612,False,U.S. Bancorp
+MU,55572,False,Micron Technology Inc.
+AMAT,55556,False,Applied Materials Inc.
+BSX,55147,False,Boston Scientific Corporation
+DE,54859,False,Deere & Company
+CSX,54578,False,CSX Corporation
+MCO,54315,False,Moody's Corporation
+NEM,53572,False,Newmont Corporation
+ICE,52708,False,Intercontinental Exchange Inc.
+NOC,52126,False,Northrop Grumman Corporation
+HUM,51843,False,Humana Inc.
+GPN,51634,False,Global Payments Inc.
+PGR,51433,False,The Progressive Corporation
+ADSK,51046,False,Autodesk Inc.
+TFC,50858,False,Truist Financial Corporation
+KMB,50249,False,Kimberly-Clark Corporation
+LRCX,50185,False,Lam Research Corporation
+EW,48414,False,Edwards Lifesciences Corporation
+DG,48255,False,Dollar General Corporation
+AON,47966,False,Aon Plc
+NSC,47908,False,Norfolk Southern Corporation
+WM,45446,False,Waste Management Inc.
+PNC,45327,False,The PNC Financial Services Group Inc.
+BAX,45273,False,Baxter International Inc.
+SCHW,44982,False,The Charles Schwab Corporation
+AEP,43636,False,American Electric Power Company Inc.
+ROP,43352,False,Roper Technologies Inc.
+FDX,43232,False,FedEx Corporation
+COP,43197,False,ConocoPhillips
+BIIB,43113,False,Biogen Inc.
+EL,43098,False,The Estee Lauder Companies Inc.
+GD,43072,False,General Dynamics Corporation
+HCA,42374,False,HCA Healthcare Inc.
+KHC,42373,False,The Kraft Heinz Company
+ADI,41400,False,Analog Devices Inc.
+DD,40028,False,DuPont de Nemours Inc.
+DLR,39439,False,Digital Realty Trust Inc.
+MNST,39429,False,Monster Beverage Corporation
+GIS,39171,False,General Mills Inc.
+CNC,39096,False,Centene Corporation
+EA,39045,False,Electronic Arts Inc.
+DXCM,38946,False,DexCom Inc.
+EMR,37856,False,Emerson Electric Co.
+EBAY,37754,False,eBay Inc.
+GM,37565,True,General Motors Company
+ETN,37444,False,Eaton Corporation plc
+LHX,36965,False,L3Harris Technologies Inc.
+EXC,36814,False,Exelon Corporation
+SRE,36749,False,Sempra Energy
+XEL,35648,False,Xcel Energy Inc.
+WBA,35103,False,Walgreens Boots Alliance Inc.
+MET,34688,False,MetLife Inc.
+LVS,33882,False,Las Vegas Sands Corp.
+CTSH,33407,False,Cognizant Technology Solutions Corporation
+SBAC,33340,False,SBA Communications Corporation (REIT)
+ORLY,32833,False,O'Reilly Automotive Inc.
+PSA,32399,False,Public Storage
+MSCI,32238,False,MSCI Inc.
+KMI,32226,False,Kinder Morgan Inc.
+BK,32094,False,The Bank of New York Mellon Corporation
+CMG,31606,False,Chipotle Mexican Grill Inc.
+DOW,31579,False,Dow Inc.
+INFO,31579,False,IHS Markit Ltd.
+CTAS,31293,False,Cintas Corporation
+APH,31147,False,Amphenol Corporation
+ROST,30666,False,Ross Stores Inc.
+ES,30650,False,Eversource Energy
+IDXX,30510,False,IDEXX Laboratories Inc.
+TROW,30484,False,T. Rowe Price Group Inc.
+STZ,30218,False,Constellation Brands Inc.
+IQV,30197,False,IQVIA Holdings Inc.
+TRV,29947,False,The Travelers Companies Inc.
+COF,29686,False,Capital One Financial Corporation
+PCAR,29648,True,PACCAR Inc
+ALL,29639,False,The Allstate Corporation
+WEC,29521,False,WEC Energy Group Inc.
+TWTR,29454,False,Twitter Inc.
+RMD,29286,False,ResMed Inc.
+A,29275,False,Agilent Technologies Inc.
+KLAC,29181,False,KLA Corporation
+VRSK,29170,False,Verisk Analytics Inc.
+SNPS,29158,False,Synopsys Inc.
+TEL,28785,False,TE Connectivity Ltd.
+CONS,28601,False,NAN
+CLX,28592,False,The Clorox Company
+EOG,28543,False,EOG Resources Inc.
+PSX,28410,False,Phillips 66
+MAR,28372,False,Marriott International Inc.
+YUM,28033,False,Yum! Brands Inc.
+SYY,27888,False,Sysco Corporation
+CMI,27770,True,Cummins Inc.
+ZBH,27734,False,Zimmer Biomet Holdings Inc.
+JCI,27374,False,Johnson Controls International plc
+AZO,27297,False,AutoZone Inc.
+WLTW,27235,False,Willis Towers Watson Public Limited Company
+HRL,27093,False,Hormel Foods Corporation
+RSG,27066,False,Republic Services Inc.
+SLB,27038,False,Schlumberger Limited
+KR,27001,False,The Kroger Co.
+AIG,26967,False,American International Group Inc.
+F,26874,True,Ford Motor Company
+PEG,26429,False,Public Service Enterprise Group Incorporated
+AFL,26382,False,Aflac Incorporated
+ROK,26198,False,Rockwell Automation Inc.
+AWK,26161,False,American Water Works Company Inc.
+FAST,26094,False,Fastenal Company
+PPG,27089,False,PPG Industries Inc.
+PAYX,25899,False,Paychex Inc.
+PRU,25639,False,Prudential Financial Inc.
+MCHP,25298,False,Microchip Technology Incorporated
+ED,25251,False,Consolidated Edison Inc.
+MCK,25183,False,McKesson Corporation
+OTIS,25174,False,Otis Worldwide Corporation
+MPC,25165,False,Marathon Petroleum Corporation
+ANSS,25122,False,ANSYS Inc.
+BBY,25053,False,Best Buy Co. Inc.
+HPQ,25024,False,HP Inc.
+XLNX,24966,False,Xilinx Inc.
+TT,24820,False,Trane Technologies plc
+MSI,24103,False,Motorola Solutions Inc.
+MKC,23985,False,McCormick & Company Incorporated
+VRSN,23950,False,VeriSign Inc.
+FTV,23916,False,Fortive Corporation
+BLL,23850,False,Ball Corporation
+VLO,23638,False,Valero Energy Corporation
+SWK,23567,False,Stanley Black & Decker Inc.
+K,23534,False,Kellogg Company
+ALGN,23482,False,Align Technology Inc.
+PH,23445,False,Parker-Hannifin Corporation
+ADM,23380,False,Archer-Daniels-Midland Company
+VFC,23334,False,V.F. Corporation
+WMB,23305,False,The Williams Companies Inc.
+DHI,23175,False,D.R. Horton Inc.
+CARR,23022,False,Carrier Global Corporation
+TDB,23010,False,NAN
+LYB,22858,False,LyondellBasell Industries N.V.
+DLTR,22679,False,Dollar Tree Inc.
+ARE,22419,False,Alexandria Real Estate Equities Inc.
+ALXN,22411,False,Alexion Pharmaceuticals Inc.
+GLW,22288,False,Corning Incorporated
+APTV,22207,False,Aptiv PLC
+DTE,22009,False,DTE Energy Company
+SWKS,21983,False,Skyworks Solutions Inc.
+STT,21944,False,State Street Corporation
+CERN,21849,False,Cerner Corporation
+FLT,21627,False,FLEETCOR Technologies Inc.
+INCY,21611,False,Incyte Corporation
+FTNT,21505,False,Fortinet Inc.
+ODFL,21494,False,Old Dominion Freight Line Inc.
+HSY,21474,False,The Hershey Company
+HLT,21468,False,Hilton Worldwide Holdings Inc.
+WELL,21466,False,Welltower Inc.
+NDAQ,21421,False,Nasdaq Inc.
+CTVA,21369,False,Corteva Inc.
+AME,21314,False,AMETEK Inc.
+EIX,21172,False,Edison International
+CHD,21114,False,Church & Dwight Co. Inc.
+ABC,21105,False,AmerisourceBergen Corporation
+BF/B,21033,False,NAN
+CPRT,21017,False,Copart Inc.
+AVB,20666,False,AvalonBay Communities Inc.
+MTD,20625,False,Mettler-Toledo International Inc.
+ETR,20548,False,Entergy Corporation
+EQR,20221,False,Equity Residential
+PPL,19752,False,PPL Corporation
+O,19718,False,Realty Income Corporation
+AJG,19705,False,Arthur J. Gallagher & Co.
+FRC,19667,False,First Republic Bank
+AEE,19620,False,Ameren Corporation
+WY,19483,False,Weyerhaeuser Company
+WST,19395,False,West Pharmaceutical Services Inc.
+LH,19317,False,Laboratory Corporation of America Holdings
+MKTX,19206,False,MarketAxess Holdings Inc.
+LEN,19165,False,Lennar Corporation
+FCX,19049,False,Freeport-McMoRan Inc.
+AMP,18994,False,Ameriprise Financial Inc.
+LUV,18659,False,Southwest Airlines Co.
+SPG,18519,False,Simon Property Group Inc.
+GRMN,18479,False,Garmin Ltd.
+GWW,18288,False,W.W. Grainger Inc.
+CMS,18183,False,CMS Energy Corporation
+AKAM,18132,False,Akamai Technologies Inc.
+KEYS,18114,False,Keysight Technologies Inc.
+TEX,17997,False,Terex Corporation
+ANET,17927,False,Arista Networks Inc.
+MXIM,17902,False,Maxim Integrated Products Inc.
+TSN,17899,False,Tyson Foods Inc.
+TTWO,17839,False,Take-Two Interactive Software Inc.
+CAG,17838,False,Conagra Brands Inc.
+CTXS,17590,False,Citrix Systems Inc.
+TSCO,16943,False,Tractor Supply Company
+VMC,16856,False,Vulcan Materials Company
+PAYC,16806,False,Paycom Software Inc.
+AMCR,16799,False,Amcor plc
+DGX,16786,False,Quest Diagnostics Incorporated
+DAL,16558,False,Delta Air Lines Inc.
+CAH,16497,False,Cardinal Health Inc.
+PXD,16433,False,Pioneer Natural Resources Company
+CDW,16303,False,CDW Corporation
+FE,15970,False,FirstEnergy Corp.
+ROL,15955,False,Rollins Inc.
+HOLX,15944,False,Hologic Inc.
+KMX,15893,False,CarMax Inc.
+NTRS,15818,False,Northern Trust Corporation
+DFS,15550,False,Discover Financial Services
+HES,15498,False,Hess Corporation
+OXY,15370,False,Occidental Petroleum Corporation
+DPZ,15223,False,Domino's Pizza Inc.
+DOV,15190,False,Dover Corporation
+COO,15124,False,The Cooper Companies Inc.
+BR,15073,False,Broadridge Financial Solutions Inc.
+CPB,14926,False,Campbell Soup Company
+HIG,14852,False,The Hartford Financial Services Group Inc.
+TIF,14732,False,Tiffany & Co.
+KSU,14595,False,Kansas City Southern
+EVRG,14519,False,Evergy Inc.
+CBRE,14465,False,CBRE Group Inc.
+ZBRA,14333,False,Zebra Technologies Corporation
+IP,14275,False,International Paper Company
+MAX,14269,False,NAN
+TYL,14202,False,Tyler Technologies Inc.
+PEAK,14124,False,Healthpeak Properties Inc.
+BXP,14087,False,Boston Properties Inc.
+NVR,14056,False,NVR Inc.
+ESS,14007,False,Essex Property Trust Inc.
+VIAC,13936,False,ViacomCBS Inc.
+FITB,13916,False,Fifth Third Bancorp
+MLM,13898,False,Martin Marietta Materials Inc.
+FMC,13894,False,FMC Corporation
+WAT,13808,False,Waters Corporation
+JBHT,13793,False,J.B. Hunt Transport Services Inc.
+JKHY,13759,False,Jack Henry & Associates Inc.
+SYF,13753,False,Synchrony Financial
+DRE,13725,False,Duke Realty Corporation
+IFF,13550,False,International Flavors & Fragrances Inc.
+IR,13546,False,Ingersoll Rand Inc.
+MTB,13487,False,M&T Bank Corporation
+CINF,13383,False,Cincinnati Financial Corporation
+XYL,13358,False,Xylem Inc.
+EXPD,13345,False,Expeditors International of Washington Inc.
+VTR,13344,False,Ventas Inc.
+STE,13282,False,STERIS plc
+LNT,13253,False,Alliant Energy Corporation
+ABMD,13195,False,Abiomed Inc.
+LDOS,12935,False,Leidos Holdings Inc.
+HAL,12922,False,Halliburton Company
+NUE,12903,False,Nucor Corporation
+WDC,12842,False,Western Digital Corporation
+QRVO,12806,False,Qorvo Inc.
+GPC,12787,False,Genuine Parts Company
+OKE,12751,False,ONEOK Inc.
+MAA,12723,False,Mid-America Apartment Communities Inc.
+BIO,12670,False,Bio-Rad Laboratories Inc.
+IEX,12660,False,IDEX Corporation
+ATO,12598,False,Atmos Energy Corporation
+HPE,12359,False,Hewlett Packard Enterprise Company
+SJM,12339,False,The J. M. Smucker Company
+STX,12328,False,Seagate Technology plc
+EXR,12314,False,Extra Space Storage Inc.
+PKI,12293,False,PerkinElmer Inc.
+PFG,12261,False,Principal Financial Group Inc.
+OMC,12119,False,Omnicom Group Inc.
+NLOK,12046,False,NortonLifeLock Inc.
+KEV,11955,False,NAN
+SIVB,11922,False,SVB Financial Group
+WAB,11773,False,Wabtec Corporation
+URI,11591,False,United Rentals Inc.
+CHRW,11585,False,C.H. Robinson Worldwide Inc.
+VAR,11548,False,Varian Medical Systems Inc.
+ULTA,11471,False,Ulta Beauty Inc.
+ETFC,11445,False,E*TRADE Financial Corporation
+PHM,11429,False,PulteGroup Inc.
+TDY,11388,False,Teledyne Technologies Incorporated
+WRB,11380,False,W. R. Berkley Corporation
+EXPE,11340,False,Expedia Group Inc.
+IT,11119,False,Gartner Inc.
+CTL,11073,False,CenturyLink Inc.
+CE,10927,False,Celanese Corporation
+J,10920,False,Jacobs Engineering Group Inc.
+CFG,10918,False,Citizens Financial Group Inc.
+RCL,10907,False,Royal Caribbean Cruises Ltd.
+BKR,10744,False,Baker Hughes Company
+DVA,10636,False,DaVita Inc.
+HAS,10630,False,Hasbro Inc.
+CXO,10515,False,Concho Resources Inc.
+RF,10479,False,Regions Financial Corporation
+UDR,10465,False,UDR Inc.
+EMN,10414,False,Eastman Chemical Company
+L,10376,False,Loews Corporation
+LYV,10315,False,Live Nation Entertainment Inc.
+AES,10239,False,The AES Corporation
+DRI,10214,False,Darden Restaurants Inc.
+BEN,10203,False,Franklin Resources Inc.
+AAP,10176,False,Advance Auto Parts Inc.
+AVY,10034,False,Avery Dennison Corporation
+CNP,9922,False,CenterPoint Energy Inc.
+LW,9899,False,Lamb Weston Holdings Inc.
+RJF,9882,False,Raymond James Financial Inc.
+WHR,9839,False,Whirlpool Corporation
+CBOE,9815,False,Cboe Global Markets Inc.
+FBHS,9794,False,Fortune Brands Home & Security Inc.
+HBAN,9766,False,Huntington Bancshares Incorporated
+PKG,9748,False,Packaging Corporation of America
+NTAP,9582,False,NetApp Inc.
+HSIC,9568,False,Henry Schein Inc.
+UAL,9549,False,United Airlines Holdings Inc.
+DISH,9531,False,DISH Network Corporation
+XRAY,9473,False,DENTSPLY SIRONA Inc.
+NI,9393,False,NiSource Inc.
+ALLE,9317,False,Allegion plc
+IPGP,9295,False,IPG Photonics Corporation
+FFIV,9277,False,F5 Networks Inc.
+ALB,9254,False,Albemarle Corporation
+WU,9233,False,The Western Union Company
+PNW,9154,False,Pinnacle West Capital Corporation
+FOXA,9134,False,Fox Corporation
+RE,8957,False,Everest Re Group Ltd.
+CCL,8863,False,Carnival Corporation & Plc
+GL,8554,False,Globe Life Inc.
+LKQ,8498,False,LKQ Corporation
+UHS,8394,False,Universal Health Services Inc.
+NRG,8345,False,NRG Energy Inc.
+MYL,8250,False,Mylan Inc.
+JNPR,8111,False,Juniper Networks Inc.
+BWA,7952,False,BorgWarner Inc.
+WYNN,7918,False,Wynn Resorts Limited
+IRM,7841,False,Iron Mountain Incorporated
+WRK,7832,False,WestRock Company
+TXT,7813,False,Textron Inc.
+MGM,7787,False,MGM Resorts International
+SNA,7704,False,Snap-on Incorporated
+PRGO,7606,False,Perrigo Company plc
+COG,7588,False,Cabot Oil & Gas Corporation
+HST,7402,False,Host Hotels & Resorts Inc.
+NWL,7269,False,Newell Brands Inc.
+IPG,7227,False,The Interpublic Group of Companies Inc.
+LNC,7189,False,Lincoln National Corporation
+TAP,7169,False,Molson Coors Beverage Company
+HII,7166,False,Huntington Ingalls Industries Inc.
+PNR,7031,False,Pentair plc
+AOS,6931,False,A. O. Smith Corporation
+FOX,6915,False,Fox Corporation
+HWM,6781,False,Howmet Aerospace Inc.
+REG,6778,False,Regency Centers Corporation
+VNO,6690,False,Vornado Realty Trust
+CF,6537,False,CF Industries Holdings Inc.
+DISKC,6439,False,NAN
+FANG,6427,False,Diamondback Energy Inc.
+AIZ,6370,False,Assurant Inc.
+MHK,6092,False,Mohawk Industries Inc.
+RHI,6042,False,Robert Half International Inc.
+SEE,5798,False,Sealed Air Corporation
+AAL,5792,False,American Airlines Group Inc.
+PWR,5599,False,Quanta Services Inc.
+FRT,5520,False,Federal Realty Investment Trust
+ZION,5514,False,Zions Bancorporation National Association
+FLIR,5360,False,FLIR Systems Inc.
+APA,5359,False,Apache Corporation
+LB,5331,False,L Brands Inc.
+NLSN,5322,False,Nielsen Holdings plc
+AIV,5307,False,Apartment Investment and Management Company
+NBL,5223,False,Noble Energy Inc.
+CMA,5201,False,Comerica Incorporated
+MOS,5181,False,The Mosaic Company
+PBCT,5095,False,People's United Financial Inc.
+NOV,4945,False,National Oilwell Varco Inc.
+NWSA,4942,False,News Corporation
+HBI,4862,False,Hanesbrands Inc.
+IVZ,4790,False,Invesco Ltd.
+LEG,4752,False,Leggett & Platt Incorporated
+GPS,4713,False,The Gap Inc.
+KIM,4649,False,Kimco Realty Corporation
+MRO,4520,False,Marathon Oil Corporation
+HFC,4367,False,HollyFrontier Corporation
+DXC,4357,False,DXC Technology Company
+ALK,4297,False,Alaska Air Group Inc.
+DVN,4094,False,Devon Energy Corporation
+NCLH,3961,False,Norwegian Cruise Line Holdings Ltd.
+FLS,3945,False,Flowserve Corporation
+TPR,3719,False,Tapestry Inc.
+UNM,3688,False,Unum Group
+FTI,3559,False,TechnipFMC plc
+PVH,3557,False,PVH Corp.
+SLG,3470,False,SL Green Realty Corp.
+RL,3413,False,Ralph Lauren Corporation
+DISCA,3384,False,Discovery Inc.
+XRX,3330,False,Xerox Holdings Corporation
+KSS,3290,False,Kohl's Corporation
+COTY,3060,False,Coty Inc.
+HRB,2819,False,H&R Block Inc.
+NWA,2537,False,NAN
+UA,2272,False,Under Armour Inc.
+UAA,2056,False,Under Armour Inc.
