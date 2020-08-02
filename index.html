@@ -5,18 +5,18 @@
 	<link rel="stylesheet" href="./index.css" type="text/css" charset="utf-8">
 	<script src='https://d3js.org/d3.v5.min.js'></script>
 	<script src="./js/snp500.js" charset="utf-8"></script>
+	<script src="./js/main.js" charset="utf-8"></script>
 </head>
 
-<body onload='snpActual()'>
+<body onload='onInit()'>
 	<h1>How big of a company is Tesla?</h1>
-	<div id="sample_snp" class="row">
+	<div id="top_section" class="row">
 		<div id="intro_text" class="column-left"><p>The bar chart below shows the market capitalization of the S&#38;P500 companies, and Tesla, arranged in descending order. 
 			<br><br>
 		Can you try to guess which of these is Tesla? Some example companies are given as a reference.</p>
 		</div>
 		<div id="chart1" class="column-right"></div>
 	</div>
-	<div id="actual_snp"></div>
-	
+	<div id="bottom_section"></div>
 </body>
 </html>

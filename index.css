@@ -36,30 +36,31 @@ h2 {
 	fill: #333333;
 }
 
-#actual_snp {
+#bottom_section {
 	width: 80vw;
+	position: relative;
 	overflow-x: scroll;
 }
 
 /* width */
-#actual_snp::-webkit-scrollbar {
+#bottom_section::-webkit-scrollbar {
   width: 5px;
 }
 
 /* Track */
-#actual_snp::-webkit-scrollbar-track {
+#bottom_section::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #aaaaaa;
   background: #f1f1f1;
   border-radius: 50px;
 }
 
 /* Handle */
-#actual_snp::-webkit-scrollbar-thumb {
+#bottom_section::-webkit-scrollbar-thumb {
   background: #cccccc;
   border-radius: 50px;
 }
 
-#actual_snp::-webkit-scrollbar-thumb:hover {
+#bottom_section::-webkit-scrollbar-thumb:hover {
   background: #999999;
 }
 

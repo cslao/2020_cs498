@@ -1,3 +1,4 @@
+
 async function snpSample() {
 
 	const data = Object.assign(
@@ -82,7 +83,7 @@ async function snpActual() {
     	width = barWidth * symbols.length * 1.1 - margin.left - margin.right,
     	height = 400 - margin.top - margin.bottom;
 
-	var svg = d3.select("#actual_snp")
+	var svg = d3.select("#bottom_section")
 	  .append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
@@ -95,16 +96,16 @@ async function snpActual() {
 		.range([0, width])
 		.padding(0.2);
 
-	svg.append("g")
-	 .attr("transform", "translate(0," + height + ")")
-	 .call(d3.axisBottom(x)
-	 	.tickValues(sampleSymbols))
-	 .call(g => g.select(".domain").remove())
-	 .selectAll("text")
-      .attr("transform", "translate(-10,0)rotate(-45)")
-      .attr("class", "tooltip")
-      .style("font-size", "0.9em")
-      .style("text-anchor", "end");
+	var xAxis = svg.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(x)
+		 	.tickValues(sampleSymbols))
+		 .call(g => g.select(".domain").remove())
+		 .selectAll("text")
+	      .attr("transform", "translate(-10,0)rotate(-45)")
+	      .attr("class", "tooltip")
+	      .style("font-size", "0.9em")
+	      .style("text-anchor", "end");
 	 //.attr("opacity", 0)
 
 	var y = d3.scaleLog()
@@ -114,30 +115,8 @@ async function snpActual() {
 
 	svg.append("g")
 	 .call(d3.axisLeft(y))
-	 .attr("opacity", 0)
+	 .attr("opacity", 0)	  
 
-	// Tooltips and annotation definitions
-	var resultArea = svg.append("g")
-						.attr("transform", "translate(" + width / 6 + "," + height / 10 + ")")
-						.append("text")
-						.style("opacity", 0)
-
-	var mainResult = resultArea.append("tspan").attr("x", 0);
-	var subResult1 = resultArea.append("tspan")
-							  .attr("x", 0)
-							  .attr("dy", "1.6em")
-							  .attr("class", "tooltip");
-	var subResult2 = resultArea.append("tspan")
-							  .attr("x", 0)
-							  .attr("dy", "1.2em")
-							  .attr("class", "tooltip");
-	var subResult3 = resultArea.append("tspan")
-							  .attr("x", 0)
-							  .attr("dy", "1.2em")
-							  .attr("class", "tooltip");	
-	var showTeslaBtn = getButton()			  
-
-	var hasSelection = false
 	var bars = svg.selectAll("snp500")
 				 .data(data)
 				 .enter()
@@ -163,7 +142,29 @@ async function snpActual() {
   //           d3.select(this)
   //           	.attr("fill", "#dedede");
   //       })
+	// Tooltips and annotation definitions
+	var resultArea = svg.append("g")
+						.attr("transform", "translate(" + width / 10 + "," + height / 10 + ")")
+						//.attr("x", width / 10)
+						//.attr("y", height / 10)
+						.append("text")
+						.attr("id", "results")
+						.style("opacity", 0)
 
+	var mainResult = resultArea.append("tspan").attr("x", 0);
+	var subResult1 = resultArea.append("tspan")
+							  .attr("x", 0)
+							  .attr("dy", "1.6em")
+							  .attr("class", "tooltip");
+	var subResult2 = resultArea.append("tspan")
+							  .attr("x", 0)
+							  .attr("dy", "1.2em")
+							  .attr("class", "tooltip");
+	var subResult3 = resultArea.append("tspan")
+							  .attr("x", 0)
+							  .attr("dy", "1.2em")
+							  .attr("class", "tooltip");	
+	var showTeslaBtn = getButton()		
 	var tooltip = svg.append("text")	
 	    .attr("class", "tooltip")				
 	    .style("opacity", 0);
@@ -175,15 +176,6 @@ async function snpActual() {
 			return;
 		}
 
-		if (hasSelection) {
-			// clear selection
-			bars.attr("class", function(d){ if(
-				 	sampleSymbols.indexOf(d.symbol) >= 0
-				 	){ return "snpSample"; } else { return "snp500"; }
-					})
-			clearResult()
-
-		}
 		// Use D3 to select element, change color and size
 		var isSample = sampleSymbols.indexOf(d.symbol) >= 0;
         d3.select(this)
@@ -256,6 +248,7 @@ async function snpActual() {
 			showTesla()
 			mainResult.text("Yes, that is TSLA!")
 			 .attr("class", "tsla")
+			tooltip.style("opacity", 0)
 			return;
 
 		} else {
@@ -279,18 +272,6 @@ async function snpActual() {
 
 	}
 
-	function clearResult() {
-		// h2 = d3.select("#result_snp")
-		//  .select("h2")
-		//  .text("")
-
-		// p = d3.select("#result_snp")
-		//  .selectAll("p")
-		//  .text("")
-
-		hasSelection = false
-	}
-
 	function getButton() {
 		var showTeslaBtn = d3.select("#intro_text")
 							.append("button")
@@ -310,19 +291,19 @@ async function snpActual() {
 		return showTeslaBtn
 	}
 
-	function showTesla() {
-		var tslaBar = d3.select("#bTSLA")
-		 .transition()
-		 .duration(500)
-		 .attr("class", "tsla")
+	var tsla = "TSLA"
+	var tslaIdx = symbols.indexOf(tsla)
+	var tslaBar = d3.selectAll("#bTSLA")
 
-		var tsla = "TSLA"
+	function showTesla() {
+
+		sampleSymbols.push(tsla)
 		teslaShown = true
+		tslaBar.attr("class", "tsla")
 
 		showTeslaBtn.text("Tesla is shown")
 		 .attr("class", "disabled")
 
-		tslaIdx = symbols.indexOf(tsla)
 		d = data[tslaIdx]
 
 		mainResult.text("This is TSLA")
@@ -337,13 +318,49 @@ async function snpActual() {
 		subResult3
 		 .text("Rank: " + tslaIdx)
 
+		
 		resultArea
 		 .transition()
 		 .duration(1000)
 		 .style("opacity", 1)
-		 .attr("transform", "translate(" + (width / -6 + x(tsla) - 10) + "," + 0 + ")")
+		 //.attr("x", x(tsla) - 10)
+		 .attr("transform", "translate(" + (width / -10 + x(tsla) - 10) + "," + 0 + ")")
 
+		 cleanUpSnp500(height)
+		 cleanUpSampleChart()
+	    // code to get rid of everything
 	}
+}
+
+function cleanUpSampleChart() {
+	// 
+	var t = d3.select("#chart1")
+			 	.transition()
+			 	.delay(1000).duration(500)
+			 	.ease(d3.easeLinear)
+
+	t.selectAll("rect").attr("width", 0).attr("x", 0)
+	t.selectAll("text.tooltip").style("opacity", 0)
+	t.selectAll(".tick").style("opacity", 0)
+	t.selectAll("svg").style("opacity", 0)
+
+}
+
+function cleanUpSnp500(height) {
+
+	var t = d3.select("#bottom_section")
+			 .transition()
+			 .delay(1000).duration(500)
+			 .ease(d3.easeLinear)
+
+    t.selectAll("rect.snp500")
+     .filter(function() { return !(this.id == "bTSLA"); })
+     .attr("height", 0).attr("y", height)
+    t.selectAll("rect.snpSample")
+     .filter(function() { return !(this.id == "bTSLA"); })
+     .attr("height", 0).attr("y", height)
+    t.selectAll("text.tooltip").style("opacity", 0)
+    t.selectAll(".tick").style("opacity", 0)
 }
 
 function formatMcap(mcap) {
