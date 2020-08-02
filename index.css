@@ -3,6 +3,142 @@ body {
     padding: 25px;
 }
 
+h1 {
+	color: #8f1d14;
+	font-family: 'Dosis', sans-serif;
+}
+
+p {
+	color: #999999;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+}
+
 .tsla {
-	color: #9C2B2B;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	fill: #8f1d14;
+	transition: 0.5s;
+}
+
+.other {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	fill: #333333;
+}
+
+#actual_snp {
+	width: 80vw;
+	overflow-x: scroll;
+}
+
+/* width */
+#actual_snp::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#actual_snp::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #aaaaaa;
+  background: #f1f1f1;
+  border-radius: 50px;
+}
+
+/* Handle */
+#actual_snp::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 50px;
+}
+
+#actual_snp::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+.tooltip {
+	fill: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.snpSample {
+	fill: #3282b8;
+}
+
+.snp500 {
+	fill: #bbbbbb;
+}
+
+.snp500hover {
+	fill: #cc0000;
+}
+
+.row {
+ 	display: flex;
+}
+
+.row .column-left {
+	width: 33%;
+    padding: 0 10px 0 0;
+    float: left;
+/*  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 5px;*/
+}
+
+.row .column-right {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+@media all and (max-width:400px) { 
+  .row {
+    flex-direction: column
+  }
+}
+
+button {
+	text-align: center;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	fill: #666666;
+}
+
+.normal {
+	text-align: center;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	fill: #666666;
+}
+
+.mouseon {
+	background-color: #8f1d14;
+	color: white;
+}
+
+button .active {
+	color: #8f1d14;
+	background-color: white;
+}
+
+.disabled {
+	color: #8f1d14;
+	cursor: auto;
+	background-color: white;
 }
