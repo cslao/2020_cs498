@@ -13,7 +13,7 @@ MA,304784,False,Mastercard Incorporated
 JPM,299461,False,JPMorgan Chase & Co.
 HD,285347,False,The Home Depot Inc.
 UNH,285347,False,UnitedHealth Group Incorporated
-BRK/B,270520,False,NAN
+BRK/B,270520,False,Berkshire Hathaway Inc.
 TSLA,262869,True,Tesla Inc.
 NVDA,250784,False,NVIDIA Corporation
 VZ,235245,False,Verizon Communications Inc.
@@ -49,7 +49,7 @@ TMUS,129987,False,T-Mobile US Inc.
 MDT,129234,False,Medtronic plc
 LIN,128181,False,Linde plc
 AVGO,122984,False,Broadcom Inc.
-MKE,122532,False,NAN
+NKE,122532,False,NAN
 PM,119665,False,Philip Morris International Inc.
 UNP,119557,False,Union Pacific Corporation
 TXN,118733,False,Texas Instruments Incorporated
@@ -60,7 +60,7 @@ LOW,111008,False,Lowe's Companies Inc.
 WFC,108180,False,Wells Fargo & Company
 LMT,107961,False,Lockheed Martin Corporation
 C,107571,False,Citigroup Inc.
-HOM,104867,False,NAN
+HON,104867,False,NAN
 QCOM,99994,False,QUALCOMM Incorporated
 BA,98057,False,The Boeing Company
 RTX,94114,False,Raytheon Technologies Corporation
@@ -194,7 +194,7 @@ KLAC,29181,False,KLA Corporation
 VRSK,29170,False,Verisk Analytics Inc.
 SNPS,29158,False,Synopsys Inc.
 TEL,28785,False,TE Connectivity Ltd.
-CONS,28601,False,NAN
+CDNS,28601,False,NAN
 CLX,28592,False,The Clorox Company
 EOG,28543,False,EOG Resources Inc.
 PSX,28410,False,Phillips 66
@@ -245,7 +245,7 @@ VFC,23334,False,V.F. Corporation
 WMB,23305,False,The Williams Companies Inc.
 DHI,23175,False,D.R. Horton Inc.
 CARR,23022,False,Carrier Global Corporation
-TDB,23010,False,NAN
+TDG,23010,False,NAN
 LYB,22858,False,LyondellBasell Industries N.V.
 DLTR,22679,False,Dollar Tree Inc.
 ARE,22419,False,Alexandria Real Estate Equities Inc.
@@ -269,7 +269,7 @@ AME,21314,False,AMETEK Inc.
 EIX,21172,False,Edison International
 CHD,21114,False,Church & Dwight Co. Inc.
 ABC,21105,False,AmerisourceBergen Corporation
-BF/B,21033,False,NAN
+BF/B,21033,False,Brown-Forman Corp
 CPRT,21017,False,Copart Inc.
 AVB,20666,False,AvalonBay Communities Inc.
 MTD,20625,False,Mettler-Toledo International Inc.
@@ -330,7 +330,7 @@ EVRG,14519,False,Evergy Inc.
 CBRE,14465,False,CBRE Group Inc.
 ZBRA,14333,False,Zebra Technologies Corporation
 IP,14275,False,International Paper Company
-MAX,14269,False,NAN
+MAS,14269,False,NAN
 TYL,14202,False,Tyler Technologies Inc.
 PEAK,14124,False,Healthpeak Properties Inc.
 BXP,14087,False,Boston Properties Inc.
@@ -374,7 +374,7 @@ PKI,12293,False,PerkinElmer Inc.
 PFG,12261,False,Principal Financial Group Inc.
 OMC,12119,False,Omnicom Group Inc.
 NLOK,12046,False,NortonLifeLock Inc.
-KEV,11955,False,NAN
+KEY,11955,False,NAN
 SIVB,11922,False,SVB Financial Group
 WAB,11773,False,Wabtec Corporation
 URI,11591,False,United Rentals Inc.
@@ -457,7 +457,7 @@ HWM,6781,False,Howmet Aerospace Inc.
 REG,6778,False,Regency Centers Corporation
 VNO,6690,False,Vornado Realty Trust
 CF,6537,False,CF Industries Holdings Inc.
-DISKC,6439,False,NAN
+DISCK,6439,False,NAN
 FANG,6427,False,Diamondback Energy Inc.
 AIZ,6370,False,Assurant Inc.
 MHK,6092,False,Mohawk Industries Inc.
@@ -501,6 +501,6 @@ XRX,3330,False,Xerox Holdings Corporation
 KSS,3290,False,Kohl's Corporation
 COTY,3060,False,Coty Inc.
 HRB,2819,False,H&R Block Inc.
-NWA,2537,False,NAN
+NWS,2537,False,NAN
 UA,2272,False,Under Armour Inc.
 UAA,2056,False,Under Armour Inc.
