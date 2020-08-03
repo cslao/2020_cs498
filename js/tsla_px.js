@@ -300,11 +300,14 @@ async function stockPrices() {
 
 	function showTooltip(d, i) {
 		var xLoc = x(d.date)
-		if (xLoc > height - 100) {
+		if (xLoc > width - 100) {
 			xLoc = xLoc - 100
 		}
 
 		var yLoc = y(d.tsla) - 20
+		if (yLoc < 20) {
+			yLoc = yLoc + 50
+		}
 
 		var tooltipArea = svg.append("g")
 		 	.attr("transform", "translate(" + xLoc + "," + yLoc + ")")
