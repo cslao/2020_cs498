@@ -27,6 +27,15 @@ h2 {
 	transition: 0.5s;
 }
 
+.spy {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	fill: #3282b8;
+}
+
 .other {
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.5em;
@@ -39,7 +48,7 @@ h2 {
 #bottom_section {
 	width: 80vw;
 	position: relative;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 /* width */
@@ -142,4 +151,8 @@ button .active {
 	color: #8f1d14;
 	cursor: auto;
 	background-color: white;
+}
+
+.earnings {
+	fill: #21bf73;
 }

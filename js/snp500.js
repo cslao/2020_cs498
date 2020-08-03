@@ -59,10 +59,14 @@ async function snpSample() {
 
 	bars
 	 .attr("id", function(d) { return "b" + d.symbol; })
-	 .attr("width", function(d) { return x(d.mcap_mm); })
 	 .attr("height", 15)
 	 .attr("x", 0)
 	 .attr("y", function(d) { return y(d.symbol); })
+	 .attr("width", 10)
+	 .transition()
+	 .duration(1000)
+	 .attr("width", function(d) { return x(d.mcap_mm); })
+	 
 
 	return symbols
 }
@@ -89,7 +93,8 @@ async function snpActual() {
 	    .attr("height", height + margin.top + margin.bottom)
 	  .append("g")
 	    .attr("transform",
-	          "translate(" + margin.left + "," + margin.top + ")");
+	          "translate(" + margin.left + "," + margin.top + ")")
+	  .attr("id", "mcap_chart");
 
 	var x = d3.scaleBand()
 		.domain(symbols)
@@ -128,12 +133,16 @@ async function snpActual() {
 				 .attr("id", function(d) { return "b" + d.symbol; });
 	bars
 	 .attr("width", barWidth)
-	 .attr("height", function(d) { return height - y(d.mcap_mm); })
 	 .attr("x", function(d) { return x(d.symbol); })
-	 .attr("y", function(d) { return y(d.mcap_mm); })
+	 .attr("height", 20)
+	 .attr("y", height)
 	 .on("mouseover", handleMouseOver)
 	 .on("mouseout", handleMouseOut)
 	 .on("click", displayResult)
+	 .transition()
+	 .duration(1000)
+	 .attr("height", function(d) { return height - y(d.mcap_mm); })
+	 .attr("y", function(d) { return y(d.mcap_mm); })
 	 // .on("mouseover", function() {
   //           d3.select(this)
   //           	.attr("fill", "#c10000");
@@ -316,7 +325,7 @@ async function snpActual() {
 		 .text("Market Capitalization: " + formatMcap(d.mcap_mm))
 
 		subResult3
-		 .text("Rank: " + tslaIdx)
+		 .text("Would-be Rank in S&P 500: " + tslaIdx)
 
 		
 		resultArea
@@ -326,10 +335,12 @@ async function snpActual() {
 		 //.attr("x", x(tsla) - 10)
 		 .attr("transform", "translate(" + (width / -10 + x(tsla) - 10) + "," + 0 + ")")
 
-		 cleanUpSnp500(height)
-		 cleanUpSampleChart()
-	    // code to get rid of everything
+		cleanUpSnp500(height)
+		cleanUpSampleChart()
+	    
+	    animateMcap(x(tsla) - margin.left / 2)
 	}
+	return x(tsla)
 }
 
 function cleanUpSampleChart() {
@@ -376,4 +387,25 @@ function formatMcap(mcap) {
 	var prefix = (mcap / divisor).toPrecision(3).toString()
 
 	return prefix + suffix
+}
+
+function animateMcap(xPos) {
+	d3.select("#mcap_chart")
+	 .transition()
+	 .delay(2000)
+	 .duration(500)
+	 .attr("transform", "translate(-" + xPos + ", 0)")
+
+	var t = d3.select("#intro_text")
+			 .transition()
+			 .delay(2000)
+			 .duration(500)
+	t.selectAll("button").style("opacity", 0)
+	t.selectAll("p").text("Tesla has grown to be one of the most valuable US companies, and is now also the most valuable automaker in the entire world.")
+
+	d3.select("#results")
+	 .transition()
+	 .delay(5000)
+	 .duration(500)
+	 .style("opacity", 0)
 }
