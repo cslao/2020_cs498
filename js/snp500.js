@@ -403,9 +403,4 @@ function animateMcap(xPos) {
 	t.selectAll("button").style("opacity", 0)
 	t.selectAll("p").text("Tesla has grown to be one of the most valuable US companies, and is now also the most valuable automaker in the entire world.")
 
-	d3.select("#results")
-	 .transition()
-	 .delay(5000)
-	 .duration(500)
-	 .style("opacity", 0)
 }
